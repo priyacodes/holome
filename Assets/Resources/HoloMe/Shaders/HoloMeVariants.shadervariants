@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HoloMeVariants
+  m_Shaders:
+  - first: {fileID: 4800000, guid: b1ef1cf3589482b40a9a0bdde4f7ba18, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: USE_AMBIENT_LIGHTING
+        passType: 4
